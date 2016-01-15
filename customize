@@ -10,14 +10,14 @@ set -o errexit
 # Configuring image specific packages
 echo "* Configuring image specific packages.";
 
-# add users for krb5
-#/usr/sbin/groupadd pbulk 
-#/usr/sbin/useradd -g pbulk pbulk
+# standard pkgin update:
+pkgin update
+pkgin clean
 
 # Clean up
 echo "* Cleaning up."
 rm -rf /root/*
-pkgin clean
+rm -rf /tmp/*
 
 # Prepare image for provisioning
 sm-prepare-image -y
