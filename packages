@@ -2,10 +2,16 @@
 # dont like vim
 nano
 # additional tools
-curl
 diffutils
+# transport:
+curl
+wget
+# other:
 grep
 gsed
+# mailhandling
 postfix
+nullmailer
+# colorlog + remote logging
+ccze
 rsyslog
-wget
