@@ -10,7 +10,6 @@ wget
 grep
 gsed
 # mailhandling
-postfix
 nullmailer
 # colorlog + remote logging
 ccze
