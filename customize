@@ -11,8 +11,12 @@ set -o errexit
 echo "* Configuring image specific packages.";
 
 # standard pkgin update:
-pkgin update
-pkgin clean
+pkg_admin rebuild
+pkgin -y up
+pkgin -y clean
+
+echo "* Create rsyslog.d folder for extra configuration files"
+mkdir -p /opt/local/etc/rsyslog.d
 
 # Clean up
 echo "* Cleaning up."
