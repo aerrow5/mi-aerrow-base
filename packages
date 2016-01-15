@@ -1,3 +1,11 @@
 # List packages to add to your image one per line.
-dtracetools
-htop
+# dont like vim
+nano
+# core programs
+samba
+# for netatalk
+gcc47
+gmake
+libevent
+libgcrypt
+# openssl already in minimal
