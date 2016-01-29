@@ -1,6 +1,8 @@
 # Changelog for mi-aerrow-base
 
-aerrow-base-1.0.0
-* Change1
-* Change2
-* etc
+15.4.0 
+* Version update to minimal-64-lts 15.4.0
+
+15.3.0 aerrow-base
+* Initial start
+
