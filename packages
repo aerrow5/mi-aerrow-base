@@ -14,3 +14,4 @@ nullmailer
 # colorlog + remote logging
 ccze
 rsyslog
+haproxy
